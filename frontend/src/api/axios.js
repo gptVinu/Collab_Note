@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://collab-note-79d7.onrender.com/api",
+  baseURL: "https://collab-note-backend.onrender.com",
 });
 
 API.interceptors.request.use((req) => {
