@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 import { AuthContext } from "../context/AuthContext";
 import Navbar from "../components/Navbar";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://collab-note-backend.onrender.com");
 
 const Editor = () => {
   const { id } = useParams();
